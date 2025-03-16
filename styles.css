@@ -1,0 +1,13 @@
+body {
+    background-color:  #aaaec0;/* สีพื้นหลัง */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#cat {
+    width: 300px;  /* ขยายขนาดให้ใหญ่ขึ้น */
+    height: 300px; /* ขยายขนาดให้ใหญ่ขึ้น */
+    image-rendering: pixelated; /* ป้องกันภาพเบลอ */
+}
